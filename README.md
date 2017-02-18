@@ -16,14 +16,19 @@ make executable
 make shure, /home/pi/Pitures and /home/pi/Videos do exist
 to run on startup add "python /home/pi/actioncam.py" in /ect/rc.local
 
+
 MANUAL:
+
 ** VIDEO
+
 press short (< 2 s) to start video-record - LED will blink 
 press again to stop recording
 
 ** STILLS
+
 press longer (< 5 s) to start timelapse photos - LED will go out an blink every 3 seconds
 press again, release as soon as LED is constantly on to stop recording pictures
 
 ** SHUTDOWN
+
 press longer than 5 seconds to shutdown raspi
